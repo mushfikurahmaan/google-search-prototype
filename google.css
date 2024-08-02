@@ -1,0 +1,93 @@
+/* HOMEPAGE PROPERTIES */
+body {
+  background-color: rgb(30, 28, 28);
+}
+
+.google-img, .google, .advance, .image {
+  font-family: "Courier New", Courier, monospace;
+  margin: 15px;
+  background-color: gray;
+  border-radius: 3px;
+  position: relative;
+}
+
+.image {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+  position: absolute;
+  left: auto;
+  right: 5px;
+}
+
+.advance {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+  position: absolute;
+  left: auto;
+  right: 75px;
+}
+
+.google {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+  position: absolute;
+  left: auto;
+  right: 75px;
+}
+
+.google-img {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+  position: absolute;
+  left: auto;
+  right: 5px;
+}
+
+.section {
+  display: flex;
+}
+
+/* END OF HOMEPAGE PROPERTIES */
+/* SEARCH BOX AND BUTTON PROPERTIES */
+.search_box {
+  width: 600px;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 360px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  outline: none;
+  padding-left: 30px;
+}
+
+.search_button {
+  background-color: orange;
+  width: 110px;
+  height: 40px;
+  margin-left: 600px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.search_button:hover {
+  cursor: pointer;
+}
+
+/* END OF SEARCH BOX AND BUTTON PROPERTIES */
+
+/*# sourceMappingURL=google.css.map */
